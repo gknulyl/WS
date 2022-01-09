@@ -1,0 +1,17 @@
+#spring:
+#  datasource:
+#    url: jdbc:h2:./debdv
+#    username: sa
+#    
+#  jpa:
+#    hibernate:
+#      ddl-auto: updatespring:  jpa:
+    hibernate:
+      ddl-auto: update    properties:      javax:
+        persistence:
+          validation:
+            mode: none
+            
+  datasource:
+    url: jdbc:h2:./debdv
+    username: sa
