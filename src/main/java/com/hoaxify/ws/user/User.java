@@ -22,7 +22,7 @@ public class User {
 	private long id; 
 	
 	@NotNull(message= "{hoaxify.constraints.username.NotNull.message}")
-	@Size(min=4, max=255)
+	@Size(min=4, max=254)
 	@UniqueUsername
 	@JsonView(Views.Base.class)
 	private String username;
