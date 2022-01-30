@@ -26,7 +26,7 @@ public class WsApplication {
 				user.setPassword("P4ssword");
 				//userService.save(user);				
 				
-						
+					
 			};
 		}
 	
